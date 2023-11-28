@@ -22,7 +22,14 @@ docker build -t notes-app .
 docker run -d -p 8000:8000 notes-app:latest
 ```
 
+Docker containers can be accessed on browser with port number
+So to access our app without using port number and only url using nginx 
+
 ## Nginx
+
+REVERSE PROXY
+LOAD BALANCER
+
 
 Install Nginx reverse proxy to make this application available
 
@@ -30,3 +37,4 @@ Install Nginx reverse proxy to make this application available
 `sudo apt install nginx`
 
 In this project we are using proxy to run and deploy web app on nginx without port number
+
